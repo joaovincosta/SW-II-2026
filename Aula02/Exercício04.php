@@ -1,5 +1,5 @@
 <?php
-    $canal = 2;
+    $canal = 3;
     switch ($canal) {
         case 1:
             echo "Você está no canal do SBT";
