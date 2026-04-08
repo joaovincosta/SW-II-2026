@@ -1,6 +1,6 @@
 <?php
     // array com 3 produtos
-    $json_str = '
+    $json_lista = '
         {"produtos":  
             [
                 {"nome":"Milho", "preco":6, "qntd":100},
@@ -10,8 +10,8 @@
         }';
 
     // conversão do array para JSON com json_encode()
-    $json_str = json_encode($produtos);
+    $produtos = json_encode($json_lista);
 
     // salvamento do JSON em um arquivo com file_put_contents()
-    file_put_contents("produtos.json", $json_str);
+    file_put_contents("produtos.json", $json_lista);
 ?>

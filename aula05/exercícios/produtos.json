@@ -1,0 +1,8 @@
+
+        {"produtos":  
+            [
+                {"nome":"Milho", "preco":6, "qntd":100},
+                {"nome":"Dolly Guaraná", "preco":6, "qntd":70},
+                {"nome":"Caixa Paçoquita 10un", "preco":10, "qntd":30}
+            ]
+        }
