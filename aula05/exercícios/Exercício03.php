@@ -4,7 +4,13 @@
     $produtos = json_decode($conteudo, true);
 
     // Adicione um novo produto ao array
-    
+     $novoProduto = [
+        "nome" => "Chocolate",
+        "preco" => 8,
+        "qntd" => 50
+    ];
+
+    $produtos["produtos"][] = $novoProduto;
 
     // Converta o array atualizado para JSON e salve de volta no arquivo
     $conteudo = json_encode($produtos);
